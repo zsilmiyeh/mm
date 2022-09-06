@@ -1,39 +1,39 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <title> Test Page</title>
+        <link href="/styles/output.css" rel="stylesheet"/>
+        <style>
 
-<head>
-    <title> Test Page</title>
-    <style>
-        html,
-        body {
-            height: 100%;
-        }
+            html,body{
+                height: 100%;
+            }
 
-        body {
-            background-color: aliceblue;
-            color: darkcyan;
-            margin: auto;
-            width: 80%;
-        }
+            body{
+                background-color: aliceblue;
+                color: darkcyan;
+                margin:  auto;
+                width:80% ;
+            }
+            .center {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .box{
+                border: 3px solid green; 
+                min-width: 400px;
+            }
+        </style>
+    </head>
+    <body class="center">
+       
+        <div class="box bg-white">
+                 <h1>THis  a Test Page .... !!</h1>
+        </div>
 
-        .center {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .box {
-            border: 3px solid green;
-            min-width: 400px;
-        }
-    </style>
-</head>
-
-<body class="center">
-
-    <div class="box">
-        <h1>THis a Test Page .... !!</h1>
-    </div>
-</body>
-
+        <h1 class="text-3xl font-bold underline">
+            Hello world!
+        </h1>
+    </body>
 </html>
